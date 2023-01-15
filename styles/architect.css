@@ -227,7 +227,7 @@ footer{
 } */
 @media only screen and (max-width:576px) {
     header{
-        background: none;
+        background: rgba(255, 144, 14, 0.1);
     }
     h1{
         font-size: 30px;
@@ -240,7 +240,9 @@ footer{
     align-items: center;
     text-align: center; 
 }
- 
+    .banner{
+        height:50vh;
+    }
     .banner-title{
         font-size: 20px;
     }
@@ -255,7 +257,7 @@ footer{
 .features-section{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-
+    
 }
 
 .feature-details{
