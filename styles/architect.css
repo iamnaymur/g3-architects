@@ -220,3 +220,115 @@ footer{
     background-color:rgba(255, 144, 14, 0.1) ;
     text-align: center;
 }
+
+/* mobile responsive */
+/* .hide{
+    display: none;
+} */
+@media only screen and (max-width:576px) {
+    header{
+        background: none;
+    }
+    h1{
+        font-size: 30px;
+    }
+    nav{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center; 
+}
+ 
+    .banner-title{
+        font-size: 20px;
+    }
+    .banner> img{
+        width: 100%;
+    }
+    .primary-button{
+    color: white;
+
+}
+/* feature section starts */
+.features-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+}
+
+.feature-details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100vh; */
+}
+.feature-image{
+    display: none;
+}
+
+.feature-button{
+    display: none;
+}
+.feature-options{
+    margin: 0px auto;
+    width: 100%;
+}
+/* achievements
+ */
+.achievements{
+    margin-top: 600px;
+    margin-bottom: 0;
+    /* margin: 0; */
+    width: 100%;
+ 
+}
+.achievement-btn{
+    display: flex;
+    flex-direction: column;
+   margin-top: 45px;
+}
+/* review section */
+.reviews{
+    display: flex;
+    flex-direction: column;
+}
+.review-1> img{
+    height: 300px;
+    width: 350px;
+    border-radius: 25% 25%;
+   box-shadow: none;
+}
+.review-1, .review-2{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    line-height: 25px;
+}
+.review-2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.review-2> img{
+    height: 300px;
+    width: 350px;
+    border-radius: 25% 25%;
+    box-shadow: none;
+   
+}
+/* sponsors part */
+.sponsors> img{
+    height: 30px;
+    width: 100px;
+    padding: 0px 30px;
+    margin-bottom: 100px;
+}
+
+/* footer */
+footer{
+    font-size: 16px;
+}
+
+
+}
