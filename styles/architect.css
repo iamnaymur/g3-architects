@@ -1,0 +1,222 @@
+body{
+   box-sizing: border-box;                                                                      
+   margin: 0;
+   padding: 0;
+   font-family: 'Work Sans', sans-serif;
+   background-color: white;
+}
+/* nav and banner section starts */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding-bottom: 50px;
+}
+h1{
+    font-size: 45px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center; 
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 18px;
+}
+
+.banner{
+    background-size: cover;
+    width: 80%;
+    height: 100vh;
+    margin: 120px auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.banner-title{  
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+.banner-description{
+ font-size: 16px;
+ line-height: 26px;
+ text-align: center;
+ color: #727272;
+}
+.primary-button{
+    height: 64px;
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+padding: 20px 25px;
+border: 1px solid #FF900E;
+background: #FF900E;
+border-radius: 8px;
+color: white;
+margin-bottom: 5%;
+}
+/* features section starts */
+.features-section{
+    background: white;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width:80%;
+    margin: 80px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-title{
+    font-size: 45px;
+}
+.first-color{
+    color: #727272;
+}
+.second-color{
+    color: #FF900E;
+}
+
+.feature-details{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+}
+.feature-options{
+    width: 468px;
+}
+.features-head{
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+border-left: 5px solid #FF900E;
+}
+.feature-description{
+    color:#727272;
+}
+.main-features  h1{
+ font-size: 18px;
+}
+.main-features p{
+    margin-bottom: 80px;
+}
+.main-features{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.main-features .banner-description{
+    margin-bottom: 450px;
+}
+.feature-image{
+    position: relative;
+}
+.feature-image .feature-button{
+    position: absolute;
+    left: -20%;
+    top: 90%;
+}
+.feature-button{
+border: 1px solid #FF900E;
+background: #FF900E;
+width: 342px;
+height: 200px;
+color: white;
+border-radius: 10px;
+}
+.button-design{
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+/* feature section ends */
+/* achievements part starts */
+.achievements{
+    margin-top: 200px;
+    width: 80%;
+    margin: 20% auto;
+}
+.achievement-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.hover-buttons{
+    border: 1px solid #FF900E;
+    margin-top: 5%;
+    padding: 20px 80px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.hover-buttons:hover{
+    color: #FF900E;
+    border-radius: 50%;
+}
+
+/* review section */
+.reviews{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.review-subtitle{
+    color: #FF900E;
+    font-size: 20px;
+    text-shadow:1px 1px #727272;
+}
+.review-1> img{
+    height: 400px;
+    width: 500px;
+    border-radius: 25% 25%;
+    box-shadow: 10px 5px #aaaaaa;
+}
+.review-1> p{
+    margin-left: 20px;
+}
+.review-2> img{
+    height: 400px;
+    width: 500px;
+    border-radius: 25% 25%;
+    box-shadow: 10px 5px #aaaaaa;
+
+    
+}
+.review-1{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: 100px;
+   
+}
+.review-2{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: 100px;
+}
+
+/* sponsors section */
+.sponsors{
+    text-align: center;
+}
+.sponsors> img{
+    padding: 20px 60px;
+    margin-bottom: 100px;
+}
+/* footer */
+footer{
+    padding: 40px 0;
+    background-color:rgba(255, 144, 14, 0.1) ;
+    text-align: center;
+}
